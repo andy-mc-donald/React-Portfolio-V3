@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
+import CardCredentials from "./components/CardCredentials"
 import styled from "styled-components";
 import GlobalStyle from "./theme/GlobalStyle";
 
@@ -93,7 +94,7 @@ const App = () => {
             <About />
           </ColumnTopL>
           <ColumnTopR size={1}>
-            <h1>Credentials</h1>
+            <CardCredentials color="yellow" text="blah blah blah"/>
           </ColumnTopR>
         </RowMain>
         <Row>
