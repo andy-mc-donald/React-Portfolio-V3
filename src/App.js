@@ -1,9 +1,9 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
-import CardCredentials from "./components/CardCredentials"
 import styled from "styled-components";
 import GlobalStyle from "./theme/GlobalStyle";
+import CardCredentialsContainer from "./components/CredentialsContainer";
 
 const Grid = styled.div`
 `;
@@ -94,7 +94,7 @@ const App = () => {
             <About />
           </ColumnTopL>
           <ColumnTopR size={1}>
-            <CardCredentials color="yellow" text="blah blah blah"/>
+            <CardCredentialsContainer />
           </ColumnTopR>
         </RowMain>
         <Row>
