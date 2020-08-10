@@ -14,7 +14,7 @@ const DivL = styled.div`
   border-color: black;
   border-width: 0 1px 0 0;
   background-image: url(${props => props.image});
-  background-position: center;
+  background-position: ${props => props.position};
   background-repeat: no-repeat;
   background-size: cover;
 `;
@@ -25,12 +25,13 @@ const DivR = styled.div`
   background-color: ${props => props.bgcolor};
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
-const CardCredentialsL = ({color, img, text}) => {
+const CardCredentialsL = ({color, img, bgPos, text}) => {
   return (
     <Container>
-      <DivL image={img}>
+      <DivL image={img} position={bgPos}>
       </DivL>
       <DivR bgcolor={color}>
         <h3 style={{padding: "1em"}}>{text}</h3>
