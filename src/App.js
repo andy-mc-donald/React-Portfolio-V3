@@ -1,9 +1,10 @@
 import React from "react";
+import styled from "styled-components";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
-import styled from "styled-components";
 import GlobalStyle from "./theme/GlobalStyle";
 import CardCredentialsContainer from "./components/CredentialsContainer";
+import IconScroller from "./components/IconScroller";
 
 const Grid = styled.div`
 `;
@@ -98,7 +99,7 @@ const App = () => {
           </ColumnTopR>
         </RowMain>
         <Row>
-          <h2>Some SVGs</h2>
+          <IconScroller />
         </Row>
         <Row>
           <ColumnProjectsL size={1}>

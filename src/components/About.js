@@ -5,6 +5,11 @@ const Div = styled.div`
   padding: 4em;
   max-width: 500px;
   margin: auto;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+
 `;
 
 const H1 = styled.h1`
