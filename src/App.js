@@ -24,6 +24,8 @@ const RowMain = styled.div`
 
 const Row = styled.div`
   display: flex;
+  overflow: hidden;
+  white-space: nowrap;
   border-style: solid;
   border-color: black;
   border-width: 0px 1px 1px 1px
