@@ -28,13 +28,13 @@ const DivR = styled.div`
   justify-content: center;
 `;
 
-const CardCredentialsL = ({color, img, bgPos, text}) => {
+const CardCredentialsL = ({img, bgPos, color, text, textColor}) => {
   return (
     <Container>
       <DivL image={img} position={bgPos}>
       </DivL>
       <DivR bgcolor={color}>
-        <h3 style={{padding: "1em"}}>{text}</h3>
+        <h3 style={{padding: "1em", color: textColor}}>{text}</h3>
       </DivR>
     </Container>
   );

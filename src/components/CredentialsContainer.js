@@ -11,7 +11,7 @@ const CredentialsContainer = () => {
         <div>
             <CardCredentialsL img={FoundersAndCoders} bgPos="center" color="#ffe500" text="Founders and Coders bootcamp graduate"/>
             <CardCredentialsR img={FreeCodeCampCertificate} bgPos="center" color="#d0d0d5" text="FreeCodeCamp certified"/>
-            <CardCredentialsL img={CodeWars} bgPos="30%" color="#3c7ebb" text="Codewars '4 kyu' JavaScript"/>
+            <CardCredentialsL img={CodeWars} bgPos="30%" color="#363749" textColor="white" text="Codewars '4 kyu' JavaScript"/>
         </div>
     )
 }
