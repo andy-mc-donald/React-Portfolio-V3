@@ -6,6 +6,7 @@ import GlobalStyle from "./theme/GlobalStyle";
 import CardCredentialsContainer from "./components/CredentialsContainer";
 import IconScroller from "./components/IconScroller";
 import ProjectsLeft from "./components/ProjectsLeft";
+import ProjectsRight from "./components/ProjectsRight";
 
 const Grid = styled.div`
 `;
@@ -110,7 +111,8 @@ const App = () => {
             <ProjectsLeft />
           </ColumnProjectsL>
           <ColumnProjectsR size={1}>
-            <h1>More projects</h1>
+            {/* <h1>More projects</h1> */}
+            <ProjectsRight />
           </ColumnProjectsR>
           <ColumnProjectsAll size={1}>
             <h1>All projects (Prev Hidden)</h1>
