@@ -15,6 +15,7 @@ const DivL = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  // overflow-wrap: break-word;
 `;
 
 const DivR = styled.div`

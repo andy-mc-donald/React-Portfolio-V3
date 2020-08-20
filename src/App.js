@@ -5,6 +5,7 @@ import About from "./components/About";
 import GlobalStyle from "./theme/GlobalStyle";
 import CardCredentialsContainer from "./components/CredentialsContainer";
 import IconScroller from "./components/IconScroller";
+import ProjectsLeft from "./components/ProjectsLeft";
 
 const Grid = styled.div`
 `;
@@ -25,7 +26,6 @@ const RowMain = styled.div`
 const Row = styled.div`
   display: flex;
   overflow: hidden;
-  white-space: nowrap;
   border-style: solid;
   border-color: black;
   border-width: 0px 1px 1px 1px
@@ -105,8 +105,9 @@ const App = () => {
         </Row>
         <Row>
           <ColumnProjectsL size={1}>
-            <h1>Projects</h1>
-            <p>Some text to see what it looks like</p>
+            {/* <h1>Projects</h1>
+            <p>Some text to see what it looks like</p> */}
+            <ProjectsLeft />
           </ColumnProjectsL>
           <ColumnProjectsR size={1}>
             <h1>More projects</h1>

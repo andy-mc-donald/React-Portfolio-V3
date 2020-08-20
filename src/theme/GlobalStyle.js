@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
 
     p {
         font-family: 'Karla', sans-serif;
-        font-size: 2rem;
+        font-size: 1.7rem;
         color: #424242;
     }
 
