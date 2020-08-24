@@ -1,13 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-const Container = styled.div`
-  display: flex;
-  border: 1px solid black;
-  margin: 2em;
-  height: 25em;
-`;
-
 const DivL = styled.div`
   flex: 1;
   text-align: center;
@@ -29,6 +22,22 @@ const DivR = styled.div`
   background-size: cover;
 `;
 
+const Container = styled.div`
+  display: flex;
+  border: 1px solid black;
+  margin: 2em;
+  height: 25em;
+
+  &:hover ${DivL} {
+    flex: 1;
+    transition: 0.5s ease-in-out;
+  }
+  
+  &:hover ${DivR} {
+    flex: 1;
+    transition: 0.5s ease-in-out;
+  }
+`;
 
 const CardCredentialsR = ({color, img, bgPos, text}) => {
   return (

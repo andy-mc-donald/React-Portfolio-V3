@@ -3,13 +3,6 @@ import styled from "styled-components";
 import {Github} from "@styled-icons/boxicons-logos/Github";
 import {WebAsset} from "@styled-icons/material/WebAsset";
 
-const Container = styled.div`
-  display: flex;
-  border: 1px solid black;
-  margin: 2em;
-  height: 25em;
-`;
-
 const DivL = styled.div`
   flex: 2;
   border-style: solid;
@@ -31,6 +24,23 @@ const DivR = styled.div`
 // justify-content: center;
   justify-content: space-between;
   padding: 3em 2em 3em 2em;
+`;
+
+const Container = styled.div`
+  display: flex;
+  border: 1px solid black;
+  margin: 2em;
+  height: 25em;
+
+  &:hover ${DivL} {
+    flex: 1;
+    transition: 0.5s ease-in-out;
+  }
+  
+  &:hover ${DivR} {
+    flex: 1;
+    transition: 0.5s ease-in-out;
+  }
 `;
 
 const IconsDiv = styled.div`
