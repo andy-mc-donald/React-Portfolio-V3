@@ -8,6 +8,7 @@ import IconScroller from "./components/IconScroller";
 import ProjectsLeft from "./components/ProjectsLeft";
 import ProjectsRight from "./components/ProjectsRight";
 import ProjectsAll from "./components/ProjectsAll";
+import Footer from "./components/Footer";
 
 const Grid = styled.div`
 `;
@@ -37,7 +38,8 @@ const RowBottom = styled.div`
   display: flex;
   border-style: solid;
   border-color: black;
-  border-width: 0px 1px 1px 1px
+  border-width: 0px 1px 1px 1px;
+  background-color: #212121;
 `;
 
 const ColumnTopL = styled.div`
@@ -120,7 +122,7 @@ const App = () => {
           </ColumnProjectsAll>
         </Row>
         <RowBottom>
-          <h3>Footer</h3>
+          <Footer />
         </RowBottom>
       </Grid>
       <GlobalStyle />
