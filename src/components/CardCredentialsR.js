@@ -9,6 +9,7 @@ const DivL = styled.div`
   align-items: center;
   justify-content: center;
   // overflow-wrap: break-word;
+  transition: flex 0.5s ease-in-out;
 `;
 
 const DivR = styled.div`
@@ -20,6 +21,7 @@ const DivR = styled.div`
   background-position: ${props => props.position};
   background-repeat: no-repeat;
   background-size: cover;
+  transition: flex 0.5s ease-in-out;
 `;
 
 const Container = styled.div`
@@ -30,12 +32,10 @@ const Container = styled.div`
 
   &:hover ${DivL} {
     flex: 1;
-    transition: 0.5s ease-in-out;
   }
   
   &:hover ${DivR} {
     flex: 1;
-    transition: 0.5s ease-in-out;
   }
 `;
 
