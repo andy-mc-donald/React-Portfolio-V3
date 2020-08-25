@@ -4,12 +4,12 @@ import styled from "styled-components";
 const DivL = styled.div`
   flex: 1;
   text-align: center;
-  background-color: ${props => props.bgcolor};
+  background-color: ${(props) => props.bgcolor};
   display: flex;
   align-items: center;
   justify-content: center;
   // overflow-wrap: break-word;
-  transition: flex 0.5s ease-in-out;
+  transition: flex 0.3s ease-in-out;
 `;
 
 const DivR = styled.div`
@@ -17,11 +17,11 @@ const DivR = styled.div`
   border-style: solid;
   border-color: black;
   border-width: 0 0 0 1px;
-  background-image: url(${props => props.image});
-  background-position: ${props => props.position};
+  background-image: url(${(props) => props.image});
+  background-position: ${(props) => props.position};
   background-repeat: no-repeat;
   background-size: cover;
-  transition: flex 0.5s ease-in-out;
+  transition: flex 0.3s ease-in-out;
 `;
 
 const Container = styled.div`
@@ -33,21 +33,27 @@ const Container = styled.div`
   &:hover ${DivL} {
     flex: 1;
   }
-  
+
   &:hover ${DivR} {
     flex: 1;
   }
 `;
 
-const CardCredentialsR = ({color, img, bgPos, text}) => {
+const A = styled.a`
+  text-decoration: none;
+  cursor: pointer;
+`;
+
+const CardCredentialsR = ({ color, img, bgPos, text, link }) => {
   return (
-    <Container>
-      <DivL bgcolor={color}>
-        <h3 style={{padding: "1em"}}>{text}</h3>
-      </DivL>
-      <DivR image={img} position={bgPos}>
-      </DivR>
-    </Container>
+    <A href={link} target="_blank" rel="noopener noreferrer">
+      <Container>
+        <DivL bgcolor={color}>
+          <h3 style={{ padding: "1em" }}>{text}</h3>
+        </DivL>
+        <DivR image={img} position={bgPos}></DivR>
+      </Container>
+    </A>
   );
 };
 

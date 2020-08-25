@@ -10,8 +10,6 @@ const Foot = styled.footer`
 
 const Div1 = styled.div`
   flex: 1;
-  // display: flex;
-  // flex-direction: column;
 `;
 
 const Ul = styled.ul`
@@ -43,13 +41,13 @@ const A = styled.a`
   text-decoration: none;
   cursor: pointer;
   background-image: linear-gradient(#fff, #fff);
-  background-position: 0% 100%; 
+  background-position: 0% 100%;
   background-size: 0% 2px;
   background-repeat: no-repeat;
   transition: background-size 0.3s, background-position 0.3s;
 
-  &:hover{
-    background-position: 0% 100%; /*OR bottom right*/
+  &:hover {
+    background-position: 0% 100%;
     background-size: 100% 2px;
   }
 `;
@@ -60,7 +58,11 @@ const Footer = () => {
       <Div1>
         <Ul>
           <Li>
-            <A href="https://github.com/andy-mc-donald" target="_blank">
+            <A
+              href="https://github.com/andy-mc-donald"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </A>
           </Li>
@@ -69,13 +71,19 @@ const Footer = () => {
             <A
               href="https://www.linkedin.com/in/andy-mc-donald/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn
             </A>
           </Li>
 
           <Li>
-            <A href="mailto:andy.william.mcdonald@gmail.com">Email</A>
+            <A
+              href="mailto:andy.william.mcdonald@gmail.com"
+              rel="noopener noreferrer"
+            >
+              Email
+            </A>
           </Li>
         </Ul>
       </Div1>

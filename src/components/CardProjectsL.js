@@ -12,7 +12,7 @@ const DivL = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: flex 0.5s ease-in-out;
+  transition: flex 0.3s ease-in-out;
 `;
 
 const DivR = styled.div`
@@ -25,7 +25,7 @@ const DivR = styled.div`
 // justify-content: center;
   justify-content: space-between;
   padding: 3em 2em 3em 2em;
-  transition: flex 0.5s ease-in-out;
+  transition: flex 0.3s ease-in-out;
 `;
 
 const Container = styled.div`
