@@ -31,6 +31,8 @@ const ProjectsRight = () => {
         textColor="#424242"
         title="UpSkillMe"
         techStack="React, Styled Components, Airtable, JavaScript, HTML, CSS"
+        codeLink="https://github.com/andy-mc-donald/UpSkillMe"
+        liveLink="https://upskillme.io/"
       />
       <CardProjectsR
         img={BugBears}
@@ -38,6 +40,8 @@ const ProjectsRight = () => {
         textColor="white"
         title="Bugbears"
         techStack="JavaScript, HTML, CSS, Node.js, PostgreSQL"
+        codeLink="https://github.com/andy-mc-donald/Bugbears"
+        liveLink="https://bugbear.herokuapp.com/login-page"
       />
        <CardProjectsR
         img={WikipediaCountryLookup}
@@ -45,6 +49,8 @@ const ProjectsRight = () => {
         textColor="#424242"
         title="Wikipedia Country Lookup"
         techStack="JavaScript, HTML, CSS, Node.js"
+        codeLink="https://github.com/andy-mc-donald/Wikipedia-Country-Lookup"
+        liveLink="https://meia-fac17.herokuapp.com/"
       />
     </div>
   );

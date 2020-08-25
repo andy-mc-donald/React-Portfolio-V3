@@ -25,6 +25,8 @@ const ProjectsLeft = () => {
         textColor="#424242"
         title="Drum Machine"
         techStack="React, JavaScript, HTML, CSS"
+        codeLink="https://www.google.com/"
+        liveLink="https://www.bing.com"
       />
       <CardProjectsL
         img={RandomQuoteMachine}
@@ -32,6 +34,8 @@ const ProjectsLeft = () => {
         textColor="white"
         title="Random Quote Machine"
         techStack="React, JavaScript, HTML, CSS"
+        codeLink="https://www.google.com/"
+        liveLink="https://www.bing.com"
       />
       <CardProjectsL
         img={FoodMiles}
@@ -39,6 +43,8 @@ const ProjectsLeft = () => {
         textColor="#424242"
         title="Food Miles"
         techStack="HandlebarsJS, Sass, Node.js, Express, PostgreSQL, JavaScript, HTML, CSS"
+        codeLink="https://github.com/andy-mc-donald/Food-Miles"
+        liveLink="https://food-miles-fac17.herokuapp.com"
       />
       <CardProjectsL
         img={ProjectFear}
@@ -46,6 +52,8 @@ const ProjectsLeft = () => {
         textColor="white"
         title="Project Fear"
         techStack="JavaScript, HTML, CSS, Node.js"
+        codeLink="https://github.com/andy-mc-donald/Project-Fear"
+        liveLink="https://week-5-dgjm.herokuapp.com/"
       />
       <CardProjectsL
         img={Trainspiration}
@@ -53,6 +61,8 @@ const ProjectsLeft = () => {
         textColor="#424242"
         title="Trainspiration"
         techStack="JavaScript, HTML, CSS"
+        codeLink="https://github.com/andy-mc-donald/Trainspiration"
+        liveLink="https://fac-17.github.io/week-3-MEIA/"
       />
     </div>
   );
