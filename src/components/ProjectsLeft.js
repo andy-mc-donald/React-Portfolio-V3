@@ -16,10 +16,13 @@ const ProjectsLeft = () => {
         textColor="white"
         title="Pomodoro Clock"
         techStack="React, JavaScript, HTML, CSS"
+        codeLink="https://www.google.com/"
+        liveLink="https://www.bing.com"
       />
       <CardProjectsL
         img={DrumMachine}
         color="#BEEED5"
+        textColor="#424242"
         title="Drum Machine"
         techStack="React, JavaScript, HTML, CSS"
       />
@@ -33,6 +36,7 @@ const ProjectsLeft = () => {
       <CardProjectsL
         img={FoodMiles}
         color="#E6E0DB"
+        textColor="#424242"
         title="Food Miles"
         techStack="HandlebarsJS, Sass, Node.js, Express, PostgreSQL, JavaScript, HTML, CSS"
       />
@@ -46,6 +50,7 @@ const ProjectsLeft = () => {
       <CardProjectsL
         img={Trainspiration}
         color="#E3DEE0"
+        textColor="#424242"
         title="Trainspiration"
         techStack="JavaScript, HTML, CSS"
       />

@@ -33,7 +33,8 @@ const Button = styled.button`
     margin: 2em 0 0 0;
 
     &:hover {
-        background-color: pink;
+        background-color: #212121;
+        color: white;
     }
 `;
 

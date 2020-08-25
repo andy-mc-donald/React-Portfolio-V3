@@ -12,9 +12,11 @@ const ProjectsRight = () => {
       <CardProjectsR
         img={JavascriptCalculator}
         color="#FBF2EF"
-        // textColor="white"
+        textColor="#424242"
         title="Javascript Calculator"
         techStack="React, JavaScript, HTML, CSS"
+        codeLink="https://www.google.com/"
+        liveLink="https://www.bing.com"
       />
       <CardProjectsR
         img={MarkdownPreviewer}
@@ -26,7 +28,7 @@ const ProjectsRight = () => {
       <CardProjectsR
         img={UpSkillMe}
         color="#ECF7FD"
-        // textColor="white"
+        textColor="#424242"
         title="UpSkillMe"
         techStack="React, Styled Components, Airtable, JavaScript, HTML, CSS"
       />
@@ -40,7 +42,7 @@ const ProjectsRight = () => {
        <CardProjectsR
         img={WikipediaCountryLookup}
         color="#E0E0E0"
-        // textColor="white"
+        textColor="#424242"
         title="Wikipedia Country Lookup"
         techStack="JavaScript, HTML, CSS, Node.js"
       />
