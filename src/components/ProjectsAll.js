@@ -26,13 +26,14 @@ const ProjectsAll = () => {
       <CardProjectsR
         img={JavascriptCalculator}
         color="#FBF2EF"
-        // textColor="white"
+        textColor="#424242"
         title="Javascript Calculator"
         techStack="React, JavaScript, HTML, CSS"
       />
       <CardProjectsL
         img={DrumMachine}
         color="#BEEED5"
+        textColor="#424242"
         title="Drum Machine"
         techStack="React, JavaScript, HTML, CSS"
       />
@@ -53,13 +54,14 @@ const ProjectsAll = () => {
       <CardProjectsR
         img={UpSkillMe}
         color="#ECF7FD"
-        // textColor="white"
+        textColor="#424242"
         title="UpSkillMe"
         techStack="React, Styled Components, Airtable, JavaScript, HTML, CSS"
       />
       <CardProjectsL
         img={FoodMiles}
         color="#E6E0DB"
+        textColor="#424242"
         title="Food Miles"
         techStack="HandlebarsJS, Sass, Node.js, Express, PostgreSQL, JavaScript, HTML, CSS"
       />
@@ -80,13 +82,14 @@ const ProjectsAll = () => {
       <CardProjectsR
         img={WikipediaCountryLookup}
         color="#E0E0E0"
-        // textColor="white"
+        textColor="#424242"
         title="Wikipedia Country Lookup"
         techStack="JavaScript, HTML, CSS, Node.js"
       />
       <CardProjectsL
         img={Trainspiration}
         color="#E3DEE0"
+        textColor="#424242"
         title="Trainspiration"
         techStack="JavaScript, HTML, CSS"
       />
