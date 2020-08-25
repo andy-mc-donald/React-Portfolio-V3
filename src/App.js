@@ -93,10 +93,10 @@ const App = () => {
   return (
     <div className="App">
       <Grid>
-        <RowTop>
+        <RowTop id="nav">
           <NavBar />
         </RowTop>
-        <RowMain>
+        <RowMain id="about">
           <ColumnTopL size={1}>
             <About />
           </ColumnTopL>
@@ -107,7 +107,7 @@ const App = () => {
         <Row>
           <IconScroller />
         </Row>
-        <Row>
+        <Row id="projects">
           <ColumnProjectsL size={1}>
             <ProjectsLeft />
           </ColumnProjectsL>
@@ -118,7 +118,7 @@ const App = () => {
             <ProjectsAll />
           </ColumnProjectsAll>
         </Row>
-        <RowBottom>
+        <RowBottom id="contact">
           <Footer />
         </RowBottom>
       </Grid>

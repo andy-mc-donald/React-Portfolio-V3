@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import emoji from "../assets/emoji/favicon-32x32.png";
+import { Link } from "react-scroll";
 
 const Foot = styled.footer`
   display: flex;
@@ -34,6 +35,7 @@ const Div2 = styled.div`
 
 const Img = styled.img`
   padding: 2em;
+  cursor: pointer;
 `;
 
 const A = styled.a`
@@ -88,7 +90,9 @@ const Footer = () => {
         </Ul>
       </Div1>
       <Div2>
+      <Link activeClass="active" to="nav" spy={true} smooth={true} duration={1000}>
         <Img src={emoji} alt="emoji peace sign"></Img>
+       </Link> 
       </Div2>
     </Foot>
   );
