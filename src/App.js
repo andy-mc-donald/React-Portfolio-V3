@@ -109,12 +109,9 @@ const App = () => {
         </Row>
         <Row>
           <ColumnProjectsL size={1}>
-            {/* <h1>Projects</h1>
-            <p>Some text to see what it looks like</p> */}
             <ProjectsLeft />
           </ColumnProjectsL>
           <ColumnProjectsR size={1}>
-            {/* <h1>More projects</h1> */}
             <ProjectsRight />
           </ColumnProjectsR>
           <ColumnProjectsAll size={1}>
