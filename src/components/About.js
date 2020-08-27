@@ -6,10 +6,8 @@ const Div = styled.div`
   padding: 4em;
   max-width: 500px;
   height: auto;
-  // margin: auto;
   display: flex;
   flex-direction: column;
-  // align-items: center;
   justify-content: center;
 `;
 
@@ -52,11 +50,11 @@ const Button = styled.button`
   }
 `;
 
-const A = styled.a`
-  cursor: pointer;
-`;
-
 const About = () => {
+  const openCV = () => {
+    window.open(CV);
+  };
+
   return (
     <Div>
       <H1>Hello, I'm Andy, a London-based software developer</H1>
@@ -64,9 +62,9 @@ const About = () => {
         I’m a graduate of the Founders and Coders full-stack programme with a
         keen interest in React, JavaScript and modern web development.
       </H2>
-      <a href={CV} target="_blank" rel="noopener noreferrer">
-        <Button>Download CV</Button>
-      </a>
+      <Button type="button" onClick={openCV}>
+        Download CV
+      </Button>
     </Div>
   );
 };

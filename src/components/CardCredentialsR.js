@@ -8,7 +8,6 @@ const DivL = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  // overflow-wrap: break-word;
   transition: flex 0.3s ease-in-out;
 `;
 

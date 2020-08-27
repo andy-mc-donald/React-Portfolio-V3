@@ -44,11 +44,9 @@ const RowBottom = styled.div`
 
 const ColumnTopL = styled.div`
   flex: ${(props) => props.size};
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-style: solid;
   border-color: black;
   border-width: 0 1px 0 0;
@@ -59,10 +57,6 @@ const ColumnTopL = styled.div`
 
 const ColumnTopR = styled.div`
   flex: ${(props) => props.size};
-
-  // display: flex;
-  // align-items: center;
-
   border-style: solid;
   border-color: black;
   border-width: 0 0 0 0;

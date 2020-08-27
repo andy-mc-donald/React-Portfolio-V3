@@ -12,7 +12,6 @@ const Ul = styled.ul`
 const Li = styled.li`
   display: inline-block;
   margin-left: 1em;
-
   cursor: pointer;
   background-image: linear-gradient(#212121, #212121);
   background-position: 0% 100%;

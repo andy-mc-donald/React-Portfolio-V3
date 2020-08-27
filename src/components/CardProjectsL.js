@@ -48,23 +48,24 @@ const IconsDiv = styled.div`
   align-items: center;
 `;
 
-
 const GithubStyled = styled(Github)`
-  color: ${props => props.gitIconColor};
-  transition: transform 0.3s ease-in-out; 
+  color: ${(props) => props.gitIconColor};
+  transition: transform 0.3s ease-in-out;
 `;
 
 const WebAssetStyled = styled(WebAsset)`
-  color: ${props => props.webIconColor};
-  transition: transform 0.3s ease-in-out; 
+  color: ${(props) => props.webIconColor};
+  transition: transform 0.3s ease-in-out;
 `;
-
 
 const A = styled.a`
   text-decoration: none;
   cursor: pointer;
   display: block;
-  background-image: linear-gradient(${props => props.underlineColor}, ${props => props.underlineColor});
+  background-image: linear-gradient(
+    ${(props) => props.underlineColor},
+    ${(props) => props.underlineColor}
+  );
   background-position: 0% 100%;
   background-size: 0% 2px;
   background-repeat: no-repeat;
@@ -75,12 +76,12 @@ const A = styled.a`
     background-size: 100% 2px;
   }
 
-  &:hover ${GithubStyled}{
-    transform:scale(1.3);
+  &:hover ${GithubStyled} {
+    transform: scale(1.3);
   }
 
-  &:hover ${WebAssetStyled}{
-    transform:scale(1.3);
+  &:hover ${WebAssetStyled} {
+    transform: scale(1.3);
   }
 `;
 
@@ -101,14 +102,23 @@ const CardProjectsL = ({
         <p style={{ margin: 0, color: textColor }}>{techStack}</p>
         <IconsDiv>
           <div>
-            <A href={codeLink} underlineColor={textColor} target="_blank" rel="noopener noreferrer">
-              {/* <Github size="30" color={textColor} /> */}
+            <A
+              href={codeLink}
+              underlineColor={textColor}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <GithubStyled gitIconColor={textColor} size="30" />
               <p style={{ margin: 0, color: textColor }}>Code</p>
             </A>
           </div>
           <div>
-            <A href={liveLink} underlineColor={textColor} target="_blank" rel="noopener noreferrer">
+            <A
+              href={liveLink}
+              underlineColor={textColor}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <WebAssetStyled size="30" webIconColor={textColor} />
               <p style={{ margin: 0, color: textColor }}>Live</p>
             </A>
