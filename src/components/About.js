@@ -36,6 +36,18 @@ const Button = styled.button`
         background-color: #212121;
         color: white;
     }
+
+    @media(max-width: 425px){
+      padding: 2rem 8rem;
+    }
+
+    @media(max-width: 375px){
+      padding: 2rem 6rem;
+    }
+
+    @media(max-width: 320px){
+      padding: 2rem 4rem;
+    }
 `;
 
 const About = () => {

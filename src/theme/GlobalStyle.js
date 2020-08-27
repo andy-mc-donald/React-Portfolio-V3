@@ -43,6 +43,34 @@ const GlobalStyle = createGlobalStyle`
         font-size: 2rem;
         color: #212121;
     }
+
+    @media(max-width: 425px){
+        h1 {
+            font-size: 5.5rem;
+        }
+        h2 {
+            font-size: 2.5rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 1.3rem;
+        }
+        ul {
+             font-size: 1.5rem;
+        }
+    }
+    @media(max-width: 320px){
+        h1 {
+            font-size: 4.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
 `;
 
 export default GlobalStyle;

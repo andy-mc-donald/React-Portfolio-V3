@@ -23,7 +23,7 @@ const ProjectsRight = () => {
         color="#425A76"
         textColor="white"
         title="Markdown Previewer"
-        techStack="React, JavaScript, HTML, CSS"
+        techStack="React, Marked.js, JavaScript, HTML, CSS"
         codeLink="https://github.com/andy-mc-donald/markdown-previewer"
         liveLink="https://andy-mc-donald.github.io/markdown-previewer"
       />
