@@ -82,7 +82,7 @@ const IconScroller = () => {
         <Sassy size="80" />
         <Node size="80" />
         <GitLogo size="80" />
-        <Github size="80" />
+        <GitHub size="80" />
         <HTML size="80" />
         <CSS size="80" />
         <JS size="80" />
@@ -91,7 +91,7 @@ const IconScroller = () => {
         <Sassy size="80" />
         <Node size="80" />
         <GitLogo size="80" />
-        <Github size="80" />
+        <GitHub size="80" />
     </Div>
   );
 };
