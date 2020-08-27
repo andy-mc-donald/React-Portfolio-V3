@@ -22,6 +22,8 @@ const ProjectsAll = () => {
         textColor="white"
         title="Pomodoro Clock"
         techStack="React, JavaScript, HTML, CSS"
+        codeLink="https://github.com/andy-mc-donald/pomodoro-clock"
+        liveLink="https://andy-mc-donald.github.io/pomodoro-clock"
       />
       <CardProjectsR
         img={JavascriptCalculator}
@@ -29,6 +31,8 @@ const ProjectsAll = () => {
         textColor="#424242"
         title="Javascript Calculator"
         techStack="React, JavaScript, HTML, CSS"
+        codeLink="https://github.com/andy-mc-donald/javascript-calculator"
+        liveLink="https://andy-mc-donald.github.io/javascript-calculator"
       />
       <CardProjectsL
         img={DrumMachine}
@@ -36,6 +40,8 @@ const ProjectsAll = () => {
         textColor="#424242"
         title="Drum Machine"
         techStack="React, JavaScript, HTML, CSS"
+        codeLink="https://github.com/andy-mc-donald/drum-machine"
+        liveLink="https://andy-mc-donald.github.io/drum-machine"
       />
       <CardProjectsR
         img={MarkdownPreviewer}
@@ -43,6 +49,8 @@ const ProjectsAll = () => {
         textColor="white"
         title="Markdown Previewer"
         techStack="React, JavaScript, HTML, CSS"
+        codeLink="https://github.com/andy-mc-donald/markdown-previewer"
+        liveLink="https://andy-mc-donald.github.io/markdown-previewer"
       />
       <CardProjectsL
         img={RandomQuoteMachine}
@@ -50,6 +58,8 @@ const ProjectsAll = () => {
         textColor="white"
         title="Random Quote Machine"
         techStack="React, JavaScript, HTML, CSS"
+        codeLink="https://github.com/andy-mc-donald/random-quote-machine"
+        liveLink="https://andy-mc-donald.github.io/random-quote-machine"
       />
       <CardProjectsR
         img={UpSkillMe}

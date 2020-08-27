@@ -16,8 +16,8 @@ const ProjectsLeft = () => {
         textColor="white"
         title="Pomodoro Clock"
         techStack="React, JavaScript, HTML, CSS"
-        codeLink="https://www.google.com/"
-        liveLink="https://www.bing.com"
+        codeLink="https://github.com/andy-mc-donald/pomodoro-clock"
+        liveLink="https://andy-mc-donald.github.io/pomodoro-clock"
       />
       <CardProjectsL
         img={DrumMachine}
@@ -25,8 +25,8 @@ const ProjectsLeft = () => {
         textColor="#424242"
         title="Drum Machine"
         techStack="React, JavaScript, HTML, CSS"
-        codeLink="https://www.google.com/"
-        liveLink="https://www.bing.com"
+        codeLink="https://github.com/andy-mc-donald/drum-machine"
+        liveLink="https://andy-mc-donald.github.io/drum-machine"
       />
       <CardProjectsL
         img={RandomQuoteMachine}
@@ -34,8 +34,8 @@ const ProjectsLeft = () => {
         textColor="white"
         title="Random Quote Machine"
         techStack="React, JavaScript, HTML, CSS"
-        codeLink="https://www.google.com/"
-        liveLink="https://www.bing.com"
+        codeLink="https://github.com/andy-mc-donald/random-quote-machine"
+        liveLink="https://andy-mc-donald.github.io/random-quote-machine"
       />
       <CardProjectsL
         img={FoodMiles}

@@ -77,7 +77,7 @@ const NavBar = () => {
       </Link>
       <Li2>
         <A
-          href="https://github.com/andy-mc-donald"
+          href="https://github.com/andy-mc-donald/React-Portfolio-V3"
           target="_blank"
           rel="noopener noreferrer"
         >

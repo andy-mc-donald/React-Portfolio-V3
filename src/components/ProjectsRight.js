@@ -15,8 +15,8 @@ const ProjectsRight = () => {
         textColor="#424242"
         title="Javascript Calculator"
         techStack="React, JavaScript, HTML, CSS"
-        codeLink="https://www.google.com/"
-        liveLink="https://www.bing.com"
+        codeLink="https://github.com/andy-mc-donald/javascript-calculator"
+        liveLink="https://andy-mc-donald.github.io/javascript-calculator"
       />
       <CardProjectsR
         img={MarkdownPreviewer}
@@ -24,6 +24,8 @@ const ProjectsRight = () => {
         textColor="white"
         title="Markdown Previewer"
         techStack="React, JavaScript, HTML, CSS"
+        codeLink="https://github.com/andy-mc-donald/markdown-previewer"
+        liveLink="https://andy-mc-donald.github.io/markdown-previewer"
       />
       <CardProjectsR
         img={UpSkillMe}
