@@ -4,11 +4,12 @@ import styled from "styled-components";
 const Div = styled.div`
   padding: 4em;
   max-width: 500px;
-  margin: auto;
-  // display: flex;
-  // flex-direction: column;
+  height: auto;
+  // margin: auto;
+  display: flex;
+  flex-direction: column;
   // align-items: center;
-  // justify-content: center;
+  justify-content: center;
 
 `;
 
