@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import CV from "../assets/cv/Andy_McDonald_CV_2020.pdf";
 
 const Div = styled.div`
   padding: 4em;
@@ -10,7 +11,6 @@ const Div = styled.div`
   flex-direction: column;
   // align-items: center;
   justify-content: center;
-
 `;
 
 const H1 = styled.h1`
@@ -22,33 +22,38 @@ const H2 = styled.h2`
 `;
 
 const Button = styled.button`
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 2rem;
-    color: #212121;
-    background-color: white;
-    border: 3px solid #212121;
-    box-shadow: -3px 5px #212121;
-    padding: 2rem 10rem;
-    text-align: center;
-    margin: 2em 0 0 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #212121;
+  background-color: white;
+  border: 3px solid #212121;
+  box-shadow: -3px 5px #212121;
+  padding: 2rem 10rem;
+  text-align: center;
+  margin: 2em 0 0 0;
+  cursor: pointer;
 
-    &:hover {
-        background-color: #212121;
-        color: white;
-    }
+  &:hover {
+    background-color: #212121;
+    color: white;
+  }
 
-    @media(max-width: 425px){
-      padding: 2rem 8rem;
-    }
+  @media (max-width: 425px) {
+    padding: 2rem 8rem;
+  }
 
-    @media(max-width: 375px){
-      padding: 2rem 6rem;
-    }
+  @media (max-width: 375px) {
+    padding: 2rem 6rem;
+  }
 
-    @media(max-width: 320px){
-      padding: 2rem 4rem;
-    }
+  @media (max-width: 320px) {
+    padding: 2rem 4rem;
+  }
+`;
+
+const A = styled.a`
+  cursor: pointer;
 `;
 
 const About = () => {
@@ -59,7 +64,9 @@ const About = () => {
         I’m a graduate of the Founders and Coders full-stack programme with a
         keen interest in React, JavaScript and modern web development.
       </H2>
-      <Button>Download CV</Button>
+      <a href={CV} target="_blank" rel="noopener noreferrer">
+        <Button>Download CV</Button>
+      </a>
     </Div>
   );
 };
